@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "poem-gen",
-    "slug": "poem-gen",
-    "version": "1.0.0",
+    "name": "Poem Generator",
+    "slug": "poem-generator",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,13 +21,20 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.poemgenerator",
+      "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0eb37d92-f48a-4be9-b087-680d67d2a040"
+      }
     }
   }
 }
